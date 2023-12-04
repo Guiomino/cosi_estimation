@@ -1,0 +1,61 @@
+{
+  "name": "agence-immobiliere-du-pays-de-gex",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "npm-run-all --parallel vuejs tailwindcss",
+    "vuejs": "npm run serve",
+    "tailwindcss": "npm run dev"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "core-js": "^3.8.3",
+    "font-awesome": "^4.7.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.7.0",
+    "vue": "^3.3.4",
+    "vue-fontawesome": "^0.0.2",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
